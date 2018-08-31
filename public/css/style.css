@@ -2,6 +2,7 @@ body {
   width: 800px;
   margin: 0 auto;
   font-family: "Open Sans", sans-serif;
+  background-image: url("http://vunature.com/wp-content/uploads/2017/01/sky-storm-nature-rain-clouds-weather-pictures-for-computer-desktop-1920x1080.jpg");
 }
 .container {
   width: 600px;
@@ -24,14 +25,13 @@ fieldset {
   min-width: -webkit-min-content;
   padding: 30px;
 }
-.ghost-input,
-p {
+.ghost-input {
   display: block;
   font-weight: 300;
   width: 100%;
   font-size: 25px;
   border: 0px;
-  outline: none;
+  outline: #ffffff;
   width: 100%;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -40,31 +40,39 @@ p {
   background: #fff;
   font-family: Open Sans, Verdana;
   padding: 10px 15px;
-  margin: 30px 0px;
+  margin: 90px 0px 30px 0px;
   -webkit-transition: all 0.1s ease-in-out;
   -moz-transition: all 0.1s ease-in-out;
   -ms-transition: all 0.1s ease-in-out;
   -o-transition: all 0.1s ease-in-out;
   transition: all 0.1s ease-in-out;
+  border: 1px solid black;
 }
 .ghost-input:focus {
-  border-bottom: 1px solid #ddd;
+  border: 2px solid black;
 }
-.ghost-button {
-  background-color: transparent;
-  border: 2px solid #ddd;
-  padding: 10px 30px;
-  width: 100%;
-  min-width: 350px;
-  -webkit-transition: all 0.1s ease-in-out;
-  -moz-transition: all 0.1s ease-in-out;
-  -ms-transition: all 0.1s ease-in-out;
-  -o-transition: all 0.1s ease-in-out;
-  transition: all 0.1s ease-in-out;
-}
-.ghost-button:hover {
-  border: 2px solid #515151;
-}
+
 p {
-  color: #e64a19;
+  font-weight: 300;
+  width: 100%;
+  font-size: 25px;
+  margin: 50px 0px;
+  color: white;
+  text-align: center;
+}
+
+.button {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  background-color: black;
+  border: black 0px;
+  font-family: Open Sans, Verdana;
+  font-size: 18px;
+}
+
+.button:hover {
+  color: black;
+  background-color: white;
 }
