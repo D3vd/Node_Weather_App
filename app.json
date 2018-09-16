@@ -1,0 +1,6 @@
+{
+  "name": "Weather Node App",
+  "description": "Simple Weather App built with the help of Node.js",
+  "repository": "https://github.com/R3l3ntl3ss/Weather_Node_app",
+  "image": "heroku/nodejs"
+}
