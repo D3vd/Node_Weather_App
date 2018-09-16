@@ -15,15 +15,15 @@
                 <input name="city" type="text" class="ghost-input" placeholder="Enter a City" required>
                 <input type="submit" class="button" value="Get Weather">
             </form>
-            <% if(weather !== null){ %>
+            <% if(locals.weather !== null){ %>
                 <p>
-                    <%= weather %>
+                    <%= locals.weather %>
                 </p>
                 <% } %>
 
-                    <% if(error !== null){ %>
+                    <% if(locals.error !== null){ %>
                         <p>
-                            <%= error %>
+                            <%= locals.error %>
                         </p>
                         <% } %>
         </fieldset>
